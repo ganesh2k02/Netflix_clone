@@ -7,13 +7,6 @@ This project is a Netflix clone application with a separate frontend and backend
 - `netflix-api`: Backend code
 - `netflix-ui`: Frontend code
 
-## Prerequisites
-
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v16.x or later)
-- [MongoDB](https://www.mongodb.com/try/download/community) (for backend)
-
 ## Setup and Installation
 
 ### Backend (`netflix-api`)
@@ -27,27 +20,22 @@ Ensure you have the following installed:
    ```bash
    npm install
    
-This will install the following packages:
+   This will install the following packages:
    cors@^2.8.5
    express@^4.19.2
    mongoose@^8.5.1
    nodemon@^3.1.4
-
-3.Create a '.env' file in the netflix-api directory and add your 
-  environment variables. Example:
-   ```bash
-   MONGO_URI=mongodb://localhost:27017/netflix-clone
-   PORT=5000
-
-4. Navigate to the `netflix-api` directory:
+   
+4.Navigate to the `netflix-api` directory:
 
    ```bash
    cd netflix-api
 
-5. Start the backend server:
+
+5.Start the backend server:
 
    ```bash
-   npm start
+   nodemon server.js
 
 #### Frontend (netflix-ui)
 1. Navigate to the netflix-ui directory:
@@ -76,7 +64,13 @@ This will install the following packages
    ```bash
    npm start
 
-The frontend will be running at 'http://localhost:3000'     
+The frontend will be running at 'http://localhost:3000' 
+
+
+
+
+
+    
          
       
    
